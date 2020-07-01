@@ -9,7 +9,7 @@
 	},
 	"content_scripts": [
 		{
-			"matches": ["https://*.chaoxing.com/ananas/modules/video/index.html?*"],
+			"matches": ["https://*.chaoxing.com/mycourse/studentstudy?*"],
 			"run_at": "document_end",
 			"js": ["videoScript.js"],
 			"all_frames": true
